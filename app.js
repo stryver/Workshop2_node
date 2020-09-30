@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const country = require('./schema.js')
 const app = express();
 
-mongoose.connect('mongodb+srv://gaulthier:password1234@cluster0.yrxcl.mongodb.net/dbcountry?retryWrites=true&w=majority',
+mongoose.connect('',
     { useNewUrlParser: true,
         useUnifiedTopology: true })
     .then(() => console.log('Connected to database'))
