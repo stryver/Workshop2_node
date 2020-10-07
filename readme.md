@@ -4,9 +4,6 @@
 ```bash
 npm install
 ```
-
-## Mongo
-```url
-https://cloud.mongodb.com
+```bash
+node server
 ```
-
